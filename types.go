@@ -19,7 +19,7 @@ package ttrpc
 import (
 	"fmt"
 
-	spb "google.golang.org/genproto/googleapis/rpc/status"
+	spb "github.com/fgiudici/go-genproto/googleapis/rpc/status"
 )
 
 type Request struct {
