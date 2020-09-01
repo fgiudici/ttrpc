@@ -26,11 +26,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/fgiudici/ttrpc-dep/grpc/status"
 	"github.com/gogo/protobuf/proto"
 	"github.com/pkg/errors"
 	"github.com/prometheus/procfs"
 	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/status"
 )
 
 const serviceName = "testService"
