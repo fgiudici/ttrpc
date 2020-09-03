@@ -25,8 +25,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/fgiudici/grpc-go/codes"
-	"github.com/fgiudici/grpc-go/status"
+	"github.com/fgiudici/ttrpc-dep/grpc/codes"
+	"github.com/fgiudici/ttrpc-dep/grpc/status"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )
